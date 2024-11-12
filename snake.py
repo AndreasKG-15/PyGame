@@ -3,7 +3,7 @@ import pygame
 import time
 import random
 
-snake_speed = 12
+snake_speed = 10
 # Window size
 window_x = 720
 window_y = 480
@@ -20,7 +20,7 @@ blue = pygame.Color(0, 0, 255)
 pygame.init()
 
 # Initialise game window
-pygame.display.set_caption('GeeksforGeeks Snakes')
+pygame.display.set_caption('Snake Game')
 game_window = pygame.display.set_mode((window_x, window_y))
 
 # FPS (frames per second) controller
